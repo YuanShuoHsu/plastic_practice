@@ -3,12 +3,15 @@
 }
 
 .jumbotron{
-    background-color: cornsilk;
+    background-color:cornsilk;
 }
 
-/* .navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus{
-    outline: none;
-    box-shadow: none;
-} */
+#facebook{
+    color:rgb(24, 119, 242);
+}
+#instagram{
+    color:rgb(225, 48, 108);
+}
+#youtube{
+    color:rgb(255, 0, 0);
+}
