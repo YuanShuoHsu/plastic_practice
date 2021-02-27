@@ -16,42 +16,58 @@
         <script src="data_transfer.js"></script>
     </head>
     <body>
-        <!-- <p id="demo">A Paragraph.</p>
-        <button type="button" onclick="myFunction() ">Try it</button> -->
-
         <!-- Header -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a class="navbar-brand mr-auto" href="https://yuanshuohsu.github.io/plastic_practice/">
-                <img src="logo.png" alt="logo" width="30" height="30" class="align-top">
-                <span id="Chinese-size">Plastic practice</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarToggler" aria-controls="NavbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="NavbarToggler">
+            <div class="navbar-toggler">
+                <a class="navbar-brand dropdown-toggle" href="https://yuanshuohsu.github.io/plastic_practice/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="logo.png" alt="logo" width="30" height="30">
+                    <span id="Chinese-size">Plastic practice</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://www.facebook.com/Plastic-practice-102562175037940">
+                        <i class="fab fa-facebook-square fa-sm fa-border" id="facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.instagram.com/plastic_practice/?igshid=1uuyzdcg4x05s">
+                        <i class="fab fa-instagram fa-sm fa-border" id="instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.youtube.com/channel/UC_KLTj826ZhCiAi1jMYgQHA">
+                        <i class="fab fa-youtube fa-sm fa-border" id="youtube"></i>
+                        <span>Youtube</span>
+                    </a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse">
+                <a class="navbar-brand mr-auto" href="https://yuanshuohsu.github.io/plastic_practice/">
+                    <img src="logo.png" alt="logo" width="30" height="30">
+                    <span id="Chinese-size">Plastic practice</span>
+                </a>
                 <div class="col">
                     <div class="input-group input-group-sm">
                         <input type="text" class="form-control" placeholder="留言" id="search_text" onkeydown="keyboard_enter(event)">
                         <div class="input-group-append">
                             <button class="btn btn-outline-secondary" type="button" id="search_button" onclick="search_data()">
-                                <i class="fas fa-music"></i>
+                                <i class="fas fa-music fa-sm"></i>
                             </button>
                         </div>
 
                     </div>
                 </div>
                 <a class="navbar-brand" href="https://yuanshuohsu.github.io/plastic_practice/">
-                    <img src="face.png" alt="face" width="30" height="30" class="align-top">
+                    <img src="face.png" alt="face" width="30" height="30">
                     <span id="Chinese-size">許元碩</span>
                 </a>
                 <a class="btn btn-dark" role="button" href="https://www.facebook.com/Plastic-practice-102562175037940">
-                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-facebook-square fa-sm"></i>
                 </a>
                 <a class="btn btn-dark" role="button" href="https://www.instagram.com/plastic_practice/?igshid=1uuyzdcg4x05s">
-                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-instagram fa-sm"></i>
                 </a>
                 <a class="btn btn-dark" role="button" href="https://www.youtube.com/channel/UC_KLTj826ZhCiAi1jMYgQHA">
-                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-youtube fa-sm"></i>
                 </a>
             </div>
         </nav>
@@ -112,4 +128,4 @@
             </iframe>
         </div>
     </body>
-</html>
+</html>
