@@ -1,4 +1,11 @@
-function keyboard_enter(event){
+function keyboard_enter_dropdown(event){
+    if (event.key == "Enter"){ 
+        event.preventDefault();
+        document.getElementById("information").innerHTML = document.getElementById("search_text_dropdown").value;
+    }
+}
+
+function keyboard_enter_collapse(event){
     if (event.key == "Enter"){ 
         event.preventDefault();
         document.getElementById("search_button").click();
@@ -6,5 +13,5 @@ function keyboard_enter(event){
 }
 
 function search_data(){
-    document.getElementById("information").innerHTML = document.getElementById("search_text").value;
+    document.getElementById("information").innerHTML = document.getElementById("search_text_collapse").value;
 }
