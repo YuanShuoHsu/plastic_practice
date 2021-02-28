@@ -14,38 +14,44 @@
         <!-- css、javascript -->
         <link rel="stylesheet" type="text/css" href="font.css">
         <script src="data_transfer.js"></script>
+        <script src="js/bootstrap-dropdownhover.min.js"></script>
     </head>
+    <!-- local_storage -->
     <body onload="load_local_storage()">
         <!-- Header -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <!-- toggler -->
             <div class="navbar-toggler">
-                <a class="navbar-brand dropdown-toggle" href="https://yuanshuohsu.github.io/plastic_practice/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="logo.png" alt="logo" width="30" height="30">
-                    <span id="Chinese-size">Plastic practice</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <div class="dropdown-item">
-                        <input type="text" class="form-control-sm" placeholder="留言" id="search_text_dropdown" onkeydown="keyboard_enter_dropdown(event)">
+                <div class="btn-group dropdown">
+                    <button class="btn btn-dark btn-sm dropdown-toggle" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                        <img src="logo.png" alt="logo" width="30" height="30">
+                        <span id="Chinese-size">Plastic practice</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-item">
+                            <input type="text" class="form-control-sm" placeholder="留言" id="search_text_dropdown" onkeydown="keyboard_enter_dropdown(event)">
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.facebook.com/Plastic-practice-102562175037940">
+                            <i class="fab fa-facebook-square fa-sm fa-border" id="facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.instagram.com/plastic_practice/?igshid=1uuyzdcg4x05s">
+                            <i class="fab fa-instagram fa-sm fa-border" id="instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.youtube.com/channel/UC_KLTj826ZhCiAi1jMYgQHA">
+                            <i class="fab fa-youtube fa-sm fa-border" id="youtube"></i>
+                            <span>Youtube</span>
+                        </a>
                     </div>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="https://www.facebook.com/Plastic-practice-102562175037940">
-                        <i class="fab fa-facebook-square fa-sm fa-border" id="facebook"></i>
-                        <span>Facebook</span>
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="https://www.instagram.com/plastic_practice/?igshid=1uuyzdcg4x05s">
-                        <i class="fab fa-instagram fa-sm fa-border" id="instagram"></i>
-                        <span>Instagram</span>
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="https://www.youtube.com/channel/UC_KLTj826ZhCiAi1jMYgQHA">
-                        <i class="fab fa-youtube fa-sm fa-border" id="youtube"></i>
-                        <span>Youtube</span>
-                    </a>
                 </div>
             </div>
+            <!-- collapse -->
             <div class="collapse navbar-collapse">
-                <a class="navbar-brand mr-auto" href="https://yuanshuohsu.github.io/plastic_practice/">
+                <a class="navbar-brand mr-auto" role="button" href="https://yuanshuohsu.github.io/plastic_practice/">
                     <img src="logo.png" alt="logo" width="30" height="30">
                     <span id="Chinese-size">Plastic practice</span>
                 </a>
@@ -60,9 +66,9 @@
 
                     </div>
                 </div>
-                <a class="navbar-brand" href="https://yuanshuohsu.github.io/plastic_practice/">
+                <a class="navbar-brand"  role="button" href="https://yuanshuohsu.github.io/plastic_practice/">
                     <img src="face.png" alt="face" width="30" height="30">
-                    <span id="Chinese-size">許元碩</span>
+                    <span id="Chinese-size" >許元碩</span>
                 </a>
                 <a class="btn btn-dark" role="button" href="https://www.facebook.com/Plastic-practice-102562175037940">
                     <i class="fab fa-facebook-square fa-sm"></i>
