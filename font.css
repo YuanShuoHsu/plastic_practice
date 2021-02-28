@@ -6,6 +6,10 @@
     border:none;
 }
 
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
 .jumbotron{
     background-color:cornsilk;
 }
