@@ -11,6 +11,10 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <!-- jQuery CDN -->
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
+        
         <!-- css、javascript -->
         <link rel="stylesheet" type="text/css" href="font.css">
         <script src="data_transfer.js"></script>
@@ -66,7 +70,7 @@
 
                     </div>
                 </div>
-                <a class="navbar-brand"  role="button" href="https://yuanshuohsu.github.io/plastic_practice/">
+                <a class="navbar-brand" role="button" href="https://yuanshuohsu.github.io/plastic_practice/">
                     <img src="face.png" alt="face" width="30" height="30">
                     <span id="Chinese-size" >許元碩</span>
                 </a>
@@ -88,11 +92,26 @@
                 <span>匿名者(留言)：</span>
                 <span id="information"></span>
                 <hr class="my-4">
-
- 
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                </p>
+                <div class="row h-100 justify-content-center bg-info">
+                    <div class="col-sm-6-fluid">
+                        <div class="all_keyboard">
+                            <div class="keyboard">
+                                <div class="white_key_C" data-key="C4"></div>
+                                <div class="white_key_D" data-key="D4"></div>
+                                <div class="white_key_E" data-key="E4"></div>
+                                <div class="white_key_F" data-key="F4"></div>
+                                <div class="white_key_G" data-key="G4"></div>
+                                <div class="white_key_A" data-key="A4"></div>
+                                <div class="white_key_B" data-key="B4"></div>
+                                <div class="black_key_Db" data-key="C#4/Db4"></div>
+                                <div class="black_key_Eb" data-key="D#4/Eb4"></div>      
+                                <div class="black_key_Gb" data-key="F#4/Gb4" ></div>
+                                <div class="black_key_Ab" data-key="G#4/Ab4"></div>
+                                <div class="black_key_Bb" data-key="A#4/Bb4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- card -->
@@ -139,4 +158,4 @@
             </iframe>
         </div>
     </body>
-</html>
+</html>
