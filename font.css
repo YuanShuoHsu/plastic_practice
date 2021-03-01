@@ -83,9 +83,9 @@
     background-color:#C0241E;
 }
 
-.white_key_E:active{
+/* .white_key_E:active{
     background-color:#C0241E;
-}
+} */
 
 .white_key_F{
     position: relative;
@@ -237,11 +237,25 @@
 .black_key_Bb:hover{
     background-color:#6B0028;
 }
-
 /* .black_key_Bb:active{
     background-color:#6B0028;
 } */
 
 #banner{
     height:300px;
+}
+
+*{
+-webkit-touch-callout:none; /*系統預設選單被禁用*/
+-webkit-user-select:none; /*webkit瀏覽器*/
+-khtml-user-select:none; /*早期瀏覽器*/
+-moz-user-select:none;/*火狐*/
+-ms-user-select:none; /*IE10*/
+user-select:none;
+}
+input,textarea {
+-webkit-user-select:auto; /*webkit瀏覽器*/
+margin: 0px;
+padding: 0px;
+outline: none;
 }
