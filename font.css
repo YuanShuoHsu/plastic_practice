@@ -6,7 +6,7 @@
     border:none;
 }
 
-/* .dropdown:hover>.dropdown-menu{
+/* .dropdown:active>.dropdown-menu{
     display: block;
 } */
 
@@ -82,6 +82,7 @@
 .white_key_E:hover{
     background-color:#C0241E;
 }
+
 .white_key_E:active{
     background-color:#C0241E;
 }
@@ -133,6 +134,7 @@
 .white_key_A:hover{
     background-color:#C0241E;
 }
+
 .white_key_A:active{
     background-color:#C0241E;
 }
@@ -235,6 +237,7 @@
 .black_key_Bb:hover{
     background-color:#6B0028;
 }
+
 .black_key_Bb:active{
     background-color:#6B0028;
 }
