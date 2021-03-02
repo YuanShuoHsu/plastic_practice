@@ -22,7 +22,6 @@ function load_local_storage(){
     document.getElementById("information").innerHTML = localStorage.getItem("storage_text");
 }
 
-
 function playAudio_C(){
     var Do_key=document.getElementById("Do");
     Do_key.play();
