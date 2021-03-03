@@ -64,12 +64,6 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-/* #white_key_C:hover{
-    background-color:#C0241E;
-}
-#white_key_C:active{
-    background-color:#C0241E;
-} */
 
 #white_key_D{
     position: relative;
@@ -80,12 +74,6 @@ input,textarea {
     height:120px;
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
-}
-#white_key_D:hover{
-    background-color:#C0241E;
-}
-#white_key_D:active{
-    background-color:#C0241E;
 }
 
 #white_key_E{
@@ -98,13 +86,6 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-#white_key_E:hover{
-    background-color:#C0241E;
-}
-
-#white_key_E:active{
-    background-color:#C0241E;
-}
 
 #white_key_F{
     position: relative;
@@ -115,12 +96,6 @@ input,textarea {
     height:120px;
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
-}
-#white_key_F:hover{
-    background-color:#C0241E;
-}
-#white_key_F:active{
-    background-color:#C0241E;
 }
 
 #white_key_G{
@@ -133,12 +108,6 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-#white_key_G:hover{
-    background-color:#C0241E;
-}
-#white_key_G:active{
-    background-color:#C0241E;
-}
 
 #white_key_A{
     position: relative;
@@ -149,13 +118,6 @@ input,textarea {
     height:120px;
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
-}
-#white_key_A:hover{
-    background-color:#C0241E;
-}
-
-#white_key_A:active{
-    background-color:#C0241E;
 }
 
 #white_key_B{
@@ -168,12 +130,6 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-#white_key_B:hover{
-    background-color:#C0241E;
-}
-#white_key_B:active{
-    background-color:#C0241E;
-}
 
 #black_key_Db{
     position: relative;
@@ -184,12 +140,6 @@ input,textarea {
     height:80px;
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
-}
-#black_key_Db:hover{
-    background-color:#6B0028;
-}
-#black_key_Db:active{
-    background-color:#6B0028;
 }
 
 #black_key_Eb{
@@ -202,12 +152,6 @@ input,textarea {
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
 }
-#black_key_Eb:hover{
-    background-color:#6B0028;
-}
-#black_key_Eb:active{
-    background-color:#6B0028;
-}
 
 #black_key_Gb{
     position: relative;
@@ -218,12 +162,6 @@ input,textarea {
     height:80px;
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
-}
-#black_key_Gb:hover{
-    background-color:#6B0028;
-}
-#black_key_Gb:active{
-    background-color:#6B0028;
 }
 
 #black_key_Ab{
@@ -236,12 +174,6 @@ input,textarea {
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
 }
-#black_key_Ab:hover{
-    background-color:#6B0028;
-}
-#black_key_Ab:active{
-    background-color:#6B0028;
-}
 
 #black_key_Bb{
     position: relative;
@@ -252,12 +184,6 @@ input,textarea {
     height:80px;
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
-}
-#black_key_Bb:hover{
-    background-color:#6B0028;
-}
-#black_key_Bb:active{
-    background-color:#6B0028;
 }
 
 .card-deck{
