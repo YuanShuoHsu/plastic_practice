@@ -29,6 +29,10 @@ input,textarea {
     background-color:cornsilk;
 }
 
+#banner{
+    height:350px;
+}
+
 #facebook{
     color:rgb(24, 119, 242);
 }
@@ -40,7 +44,7 @@ input,textarea {
 }
 
 .all_keyboard{
-    /* transform:scale(1.5,1.5); */
+    transform:scale(1.1,1.1);
     position: relative;
 }
 .keyboard{
@@ -50,7 +54,7 @@ input,textarea {
     border-radius: 5.625% / 10%;
 }
 
-.white_key_C{
+#white_key_C{
     position: relative;
     left:46px;
     top: 55px;
@@ -60,14 +64,14 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-/* .white_key_C:hover{
-    background-color:#C0241E;
-} */
-.white_key_C:active{
+/* #white_key_C:hover{
     background-color:#C0241E;
 }
+#white_key_C:active{
+    background-color:#C0241E;
+} */
 
-.white_key_D{
+#white_key_D{
     position: relative;
     left:79px;
     bottom:65px;
@@ -77,14 +81,14 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-/* .white_key_D:hover{
+#white_key_D:hover{
     background-color:#C0241E;
-} */
-.white_key_D:active{
+}
+#white_key_D:active{
     background-color:#C0241E;
 }
 
-.white_key_E{
+#white_key_E{
     position: relative;
     left:112px;
     bottom:185px;
@@ -94,15 +98,15 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-/* .white_key_E:hover{
-    background-color:#C0241E;
-} */
-
-.white_key_E:active{
+#white_key_E:hover{
     background-color:#C0241E;
 }
 
-.white_key_F{
+#white_key_E:active{
+    background-color:#C0241E;
+}
+
+#white_key_F{
     position: relative;
     left:145px;
     bottom:305px;
@@ -112,14 +116,14 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-/* .white_key_F:hover{
+#white_key_F:hover{
     background-color:#C0241E;
-} */
-.white_key_F:active{
+}
+#white_key_F:active{
     background-color:#C0241E;
 }
 
-.white_key_G{
+#white_key_G{
     position: relative;
     left:178px;
     bottom:425px;
@@ -129,14 +133,14 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-/* .white_key_G:hover{
+#white_key_G:hover{
     background-color:#C0241E;
-} */
-.white_key_G:active{
+}
+#white_key_G:active{
     background-color:#C0241E;
 }
 
-.white_key_A{
+#white_key_A{
     position: relative;
     left:211px;
     bottom:545px;
@@ -146,15 +150,15 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-/* .white_key_A:hover{
-    background-color:#C0241E;
-} */
-
-.white_key_A:active{
+#white_key_A:hover{
     background-color:#C0241E;
 }
 
-.white_key_B{
+#white_key_A:active{
+    background-color:#C0241E;
+}
+
+#white_key_B{
     position: relative;
     left:244px;
     bottom:665px;
@@ -164,14 +168,14 @@ input,textarea {
     border-radius: 0 0 5% 5%;
     transition: 0.2s;
 }
-/* .white_key_B:hover{
+#white_key_B:hover{
     background-color:#C0241E;
-} */
-.white_key_B:active{
+}
+#white_key_B:active{
     background-color:#C0241E;
 }
 
-.black_key_Db{
+#black_key_Db{
     position: relative;
     left: 67.5px;
     bottom:785px;
@@ -181,14 +185,14 @@ input,textarea {
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
 }
-/* .black_key_Db:hover{
+#black_key_Db:hover{
     background-color:#6B0028;
-} */
-.black_key_Db:active{
+}
+#black_key_Db:active{
     background-color:#6B0028;
 }
 
-.black_key_Eb{
+#black_key_Eb{
     position: relative;
     left: 100.5px;
     bottom:865px;
@@ -198,14 +202,14 @@ input,textarea {
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
 }
-/* .black_key_Eb:hover{
+#black_key_Eb:hover{
     background-color:#6B0028;
-} */
-.black_key_Eb:active{
+}
+#black_key_Eb:active{
     background-color:#6B0028;
 }
 
-.black_key_Gb{
+#black_key_Gb{
     position: relative;
     left:166.5px;
     bottom:945px;
@@ -215,14 +219,14 @@ input,textarea {
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
 }
-/* .black_key_Gb:hover{
+#black_key_Gb:hover{
     background-color:#6B0028;
-} */
-.black_key_Gb:active{
+}
+#black_key_Gb:active{
     background-color:#6B0028;
 }
 
-.black_key_Ab{
+#black_key_Ab{
     position: relative;
     left:199.5px;
     bottom:1025px;
@@ -232,14 +236,14 @@ input,textarea {
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
 }
-/* .black_key_Ab:hover{
+#black_key_Ab:hover{
     background-color:#6B0028;
-} */
-.black_key_Ab:active{
+}
+#black_key_Ab:active{
     background-color:#6B0028;
 }
 
-.black_key_Bb{
+#black_key_Bb{
     position: relative;
     left:232.5px;
     bottom:1105px;
@@ -249,13 +253,16 @@ input,textarea {
     border-radius: 0 0 10% 10%;
     transition: 0.2s;
 }
-/* .black_key_Bb:hover{
+#black_key_Bb:hover{
     background-color:#6B0028;
-} */
-.black_key_Bb:active{
+}
+#black_key_Bb:active{
     background-color:#6B0028;
 }
 
-#banner{
-    height:300px;
+.card-deck{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right:30px;
+    margin-left:30px;
 }
