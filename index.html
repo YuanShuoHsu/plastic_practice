@@ -15,10 +15,8 @@
         <!-- jQuery CDN -->
         <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
         
-        <!-- css、javascript -->
+        <!-- css -->
         <link rel="stylesheet" type="text/css" href="font.css">
-        <script src="data_transfer.js"></script>
-        <script src="js/bootstrap-dropdownhover.min.js"></script>
     </head>
     <!-- local_storage -->
     <body onload="load_local_storage()">
@@ -96,18 +94,18 @@
                     <div class="col-sm-6-fluid">
                         <div class="all_keyboard">
                             <div class="keyboard">
-                                <div class="white_key_C" onmousedown="playAudio_C()" onmouseup="playStop_C()"></div>
-                                <div class="white_key_D" onmousedown="playAudio_D()" onmouseup="playStop_D()"></div>
-                                <div class="white_key_E" onmousedown="playAudio_E()" onmouseup="playStop_E()"></div>
-                                <div class="white_key_F" onmousedown="playAudio_F()" onmouseup="playStop_F()"></div>
-                                <div class="white_key_G" onmousedown="playAudio_G()" onmouseup="playStop_G()"></div>
-                                <div class="white_key_A" onmousedown="playAudio_A()" onmouseup="playStop_A()"></div>
-                                <div class="white_key_B" onmousedown="playAudio_B()" onmouseup="playStop_B()"></div>
-                                <div class="black_key_Db" onmousedown="playAudio_Db()" onmouseup="playStop_Db()"></div>
-                                <div class="black_key_Eb" onmousedown="playAudio_Eb()" onmouseup="playStop_Eb()"></div>      
-                                <div class="black_key_Gb" onmousedown="playAudio_Gb()" onmouseup="playStop_Gb()"></div>
-                                <div class="black_key_Ab" onmousedown="playAudio_Ab()" onmouseup="playStop_Ab()"></div>
-                                <div class="black_key_Bb" onmousedown="playAudio_Bb()" onmouseup="playStop_Bb()"></div>
+                                <div id="white_key_C"></div>
+                                <div id="white_key_D"></div>
+                                <div id="white_key_E"></div>
+                                <div id="white_key_F"></div>
+                                <div id="white_key_G"></div>
+                                <div id="white_key_A"></div>
+                                <div id="white_key_B"></div>
+                                <div id="black_key_Db"></div>
+                                <div id="black_key_Eb"></div>      
+                                <div id="black_key_Gb"></div>
+                                <div id="black_key_Ab"></div>
+                                <div id="black_key_Bb"></div>
                             </div>
                         </div>
                         <audio id="Do" type="audio/mpeg" preload="auto">
@@ -150,7 +148,7 @@
                 </div>
             </div>
         </div>
-        
+            
         <!-- card -->
         <div class="card-deck">
             <div class="card">
@@ -275,7 +273,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Youtube -->
         <div class="embed-responsive embed-responsive-1by1">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SXSt1Yy7w1g?playlist=SXSt1Yy7w1g&loop=1&rel=0">
@@ -286,5 +283,9 @@
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rLXnfV0nklQ?playlist=rLXnfV0nklQ&loop=1&rel=0">
             </iframe>
         </div>
+        
     </body>
+    <!-- javascript -->
+    <script type="text/javascript" src="data_transfer.js"></script>
+    <script type="text/javascript" src="mouse.js"></script>
 </html>
