@@ -1,0 +1,154 @@
+.all_keyboard{
+    position: relative;
+    transform:scale(1.1,1.1);
+}
+.keyboard{
+    background-color:#E83E4C;
+    width:320px;
+    height:180px;
+    border-radius: 5.625% / 10%;
+}
+#white_key_C{
+    position: relative;
+    left:46px;
+    top: 55px;
+    background-color:whitesmoke;
+    width:30px;
+    height:120px;
+    border-radius: 0 0 5% 5%;
+    transition: 0.3s;
+}
+#white_key_D{
+    position: relative;
+    left:79px;
+    bottom:65px;
+    background-color:whitesmoke;
+    width:30px;
+    height:120px;
+    border-radius: 0 0 5% 5%;
+    transition: 0.3s;
+}
+#white_key_E{
+    position: relative;
+    left:112px;
+    bottom:185px;
+    background-color:whitesmoke;
+    width:30px;
+    height:120px;
+    border-radius: 0 0 5% 5%;
+    transition: 0.3s;
+}
+#white_key_F{
+    position: relative;
+    left:145px;
+    bottom:305px;
+    background-color:whitesmoke;
+    width:30px;
+    height:120px;
+    border-radius: 0 0 5% 5%;
+    transition: 0.3s;
+}
+#white_key_G{
+    position: relative;
+    left:178px;
+    bottom:425px;
+    background-color:whitesmoke;
+    width:30px;
+    height:120px;
+    border-radius: 0 0 5% 5%;
+    transition: 0.3s;
+}
+#white_key_A{
+    position: relative;
+    left:211px;
+    bottom:545px;
+    background-color:whitesmoke;
+    width:30px;
+    height:120px;
+    border-radius: 0 0 5% 5%;
+    transition: 0.3s;
+}
+#white_key_B{
+    position: relative;
+    left:244px;
+    bottom:665px;
+    background-color:whitesmoke;
+    width:30px;
+    height:120px;
+    border-radius: 0 0 5% 5%;
+    transition: 0.3s;
+}
+#black_key_Db{
+    position: relative;
+    left: 67.5px;
+    bottom:785px;
+    background-color: black;
+    width:20px;
+    height:80px;
+    border-radius: 0 0 10% 10%;
+    transition: 0.3s;
+}
+#black_key_Eb{
+    position: relative;
+    left: 100.5px;
+    bottom:865px;
+    background-color: black;
+    width:20px;
+    height:80px;
+    border-radius: 0 0 10% 10%;
+    transition: 0.3s;
+}
+#black_key_Gb{
+    position: relative;
+    left:166.5px;
+    bottom:945px;
+    background-color: black;
+    width:20px;
+    height:80px;
+    border-radius: 0 0 10% 10%;
+    transition: 0.3s;
+}
+#black_key_Ab{
+    position: relative;
+    left:199.5px;
+    bottom:1025px;
+    background-color: black;
+    width:20px;
+    height:80px;
+    border-radius: 0 0 10% 10%;
+    transition: 0.3s;
+}
+#black_key_Bb{
+    position: relative;
+    left:232.5px;
+    bottom:1105px;
+    background-color: black;
+    width:20px;
+    height:80px;
+    border-radius: 0 0 10% 10%;
+    transition: 0.3s;
+}
+
+.panel{
+    position: relative;
+    left:46px;
+    bottom:1237.5px;
+    background-color:firebrick;
+    width:228px;
+    height:50.5px;
+}
+#power_button{
+    position: relative;
+    left:46px;
+    top:15px;
+    background-color:sandybrown;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    transition: 0.5s;
+}
+#power_button_icon{
+    position: relative;
+    color:black;
+    bottom:2px;
+}
