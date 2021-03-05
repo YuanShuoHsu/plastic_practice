@@ -249,3 +249,44 @@ function stopAudio_Bb(event){
     Te_key.pause();
     Te_key.currentTime = 0;
 }
+
+var power_turn_number = 1;
+var power_button_turn = document.getElementById("power_button");
+power_button_turn.addEventListener("click", power_turn);
+function power_turn(event){
+    event.preventDefault();
+    if(power_turn_number == 0){
+        power_button_turn.style.backgroundColor = "sandybrown";
+        document.getElementById("power_button_icon").className = "fas fa-compact-disc fa-spin fa-fw";
+        power_turn_number = 1;
+        document.getElementById("Do").muted = false;
+        document.getElementById("Re").muted = false;
+        document.getElementById("Mi").muted = false;
+        document.getElementById("Fa").muted = false;
+        document.getElementById("Sol").muted = false;
+        document.getElementById("La").muted = false;
+        document.getElementById("Ti").muted = false;
+        document.getElementById("Ra").muted = false;
+        document.getElementById("Me").muted = false;
+        document.getElementById("Se").muted = false;
+        document.getElementById("Le").muted = false;
+        document.getElementById("Te").muted = false;
+    }
+    else if(power_turn_number == 1){
+        power_button_turn.style.backgroundColor = "salmon";
+        document.getElementById("power_button_icon").className = "fas fa-power-off fa-fw";
+        document.getElementById("Do").muted = true;
+        document.getElementById("Re").muted = true;
+        document.getElementById("Mi").muted = true;
+        document.getElementById("Fa").muted = true;
+        document.getElementById("Sol").muted = true;
+        document.getElementById("La").muted = true;
+        document.getElementById("Ti").muted = true;
+        document.getElementById("Ra").muted = true;
+        document.getElementById("Me").muted = true;
+        document.getElementById("Se").muted = true;
+        document.getElementById("Le").muted = true;
+        document.getElementById("Te").muted = true;
+        power_turn_number = 0;
+    }
+}
