@@ -22,7 +22,7 @@
 	.footer h5 {
         border-left: transparent;
     }
-    .footer li{
+    .footer ul.quick-links li{
         margin-left: 49px;
     }
 }
@@ -43,6 +43,7 @@
 }
 .footer ul.social li a i{
     color: whitesmoke;
+    padding-left: 20px;
     margin-right: 5px;
 	font-size: 25px;
 	transition: 0.5s;
