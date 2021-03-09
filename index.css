@@ -47,3 +47,43 @@ input,textarea {
     margin-right: 5%;
     margin-left: 5%;
 }
+
+#carouselIndicators_first a.carousel-control-prev{
+    width: 20%;
+    height: 20%;
+    top: 30%;
+}
+#carouselIndicators_first a.carousel-control-next{
+    width: 20%;
+    height: 20%;
+    top: 30%;
+}
+#carouselIndicators_second a.carousel-control-prev{
+    width: 20%;
+    height: 20%;
+    top: 30%;
+}
+#carouselIndicators_second a.carousel-control-next{
+    width: 20%;
+    height: 20%;
+    top: 30%;
+}
+#carouselIndicators_third a.carousel-control-prev{
+    width: 20%;
+    height: 20%;
+    top: 30%;
+}
+#carouselIndicators_third a.carousel-control-next{
+    width: 20%;
+    height: 20%; 
+    top: 30%;
+}
+
+/* .carousel-indicators {
+    top: 80%;
+}
+.carousel-indicators > li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+} */
