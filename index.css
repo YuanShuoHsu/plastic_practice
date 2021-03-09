@@ -52,31 +52,37 @@ input,textarea {
     width: 20%;
     height: 20%;
     top: 30%;
+    background-color: black;
 }
 #carouselIndicators_first a.carousel-control-next{
     width: 20%;
     height: 20%;
     top: 30%;
+    background-color: black;
 }
 #carouselIndicators_second a.carousel-control-prev{
     width: 20%;
     height: 20%;
     top: 30%;
+    background-color: black;
 }
 #carouselIndicators_second a.carousel-control-next{
     width: 20%;
     height: 20%;
     top: 30%;
+    background-color: black;
 }
 #carouselIndicators_third a.carousel-control-prev{
     width: 20%;
     height: 20%;
     top: 30%;
+    background-color: black;
 }
 #carouselIndicators_third a.carousel-control-next{
     width: 20%;
     height: 20%; 
     top: 30%;
+    background-color: black;
 }
 
 /* .carousel-indicators {
