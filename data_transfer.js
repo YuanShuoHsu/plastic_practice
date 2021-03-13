@@ -1,4 +1,3 @@
-
 function keyboard_enter_dropdown(event){
     if (event.key == "Enter"){
         event.preventDefault();
