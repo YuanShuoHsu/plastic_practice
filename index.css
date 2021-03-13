@@ -12,7 +12,7 @@
 }
 
 input, textarea {
-  -webkit-user-select: none;
+  -webkit-user-select: auto;
   /*webkit瀏覽器*/
   margin: 0px;
   padding: 0px;
