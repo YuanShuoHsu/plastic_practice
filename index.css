@@ -11,7 +11,7 @@
   user-select: none;
 }
 
-input{
+input, textarea {
   -webkit-user-select: auto;
   /*webkit瀏覽器*/
   margin: 0px;
