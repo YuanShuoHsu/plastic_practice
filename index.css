@@ -2,7 +2,8 @@
 * {
   -webkit-touch-callout: none;
   /*系統預設選單被禁用*/
-
+  -webkit-user-select: none;
+  /*webkit瀏覽器*/
   /*早期瀏覽器*/
   -moz-user-select: none;
   /*火狐*/
@@ -48,6 +49,10 @@ input, textarea {
 
 #youtube {
   color: red;
+}
+
+.time_size {
+  font-size: 16px;
 }
 
 .card-deck {
