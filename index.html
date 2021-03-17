@@ -89,7 +89,9 @@
         <!-- jumbotron -->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Hello, world!</h1>
+                <h1 class="display-4">Hello, world!
+                    <span id="local_time"></span>
+                </h1>
                 <span>匿名者(留言)：</span>
                 <span id="information"></span>
                 <hr class="my-4">
@@ -447,4 +449,9 @@
     <script type="text/javascript" src="mouse.js"></script>
     <script type="text/javascript" src="copy.js"></script>
     <script type="text/javascript" src="ios_youtube_api.js"></script>
+    <!-- React -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="update_time.js"></script>
 </html>
